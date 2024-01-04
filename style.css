@@ -1,6 +1,27 @@
-h2,p{
-
+.section1{
     background-color: aqua;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 50%;
+    padding: 5px;
+}
+.section2{
+    background-color:violet;
+    width: 50%;
+    padding: 5px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.section3{
+    background-color: yellow;
+    width: 50%;
+    padding: 5px;
+}
+body{
+    margin: 0px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction:row-reverse;
+    flex-grow: 2;
+   
+    
 }
